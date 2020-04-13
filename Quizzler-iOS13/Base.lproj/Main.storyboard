@@ -39,7 +39,6 @@
                                         </state>
                                         <connections>
                                             <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tc6-eu-3yW"/>
-                                            <action selector="trueButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JBL-jc-tyZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbn-vQ-GyC">
@@ -54,7 +53,6 @@
                                         </state>
                                         <connections>
                                             <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F0l-T6-2V2"/>
-                                            <action selector="falseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ssw-Ml-xCx"/>
                                         </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TXm-qh-7Xg">
@@ -84,10 +82,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="falseButton" destination="tbn-vQ-GyC" id="tGO-2k-17L"/>
+                        <outlet property="falseButton" destination="tbn-vQ-GyC" id="Hd2-Or-2wr"/>
                         <outlet property="progressBar" destination="TXm-qh-7Xg" id="BNz-TQ-iQ0"/>
                         <outlet property="questionLabel" destination="rSI-li-mhO" id="SGU-1Q-sZD"/>
-                        <outlet property="trueButton" destination="oVw-Hl-IRe" id="6hJ-Ql-Pr6"/>
+                        <outlet property="trueButton" destination="oVw-Hl-IRe" id="F5M-Em-FK7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
